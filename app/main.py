@@ -37,11 +37,11 @@ def main():
     # Section upload de fichier
     df, dataset_type = render_file_uploader()
 
-    # Si un fichier est chargé, afficher le dashboard
+    # Si un fichier est chargé affiche le dashboard
     if df is not None and dataset_type in ['shopping', 'airbnb']:
         st.divider()
 
-        # Filtres dans la sidebar
+        # Filtres
         filters = render_sidebar_filters(dataset_type)
 
         # Affichage du dashboard selon le type de dataset
