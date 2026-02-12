@@ -63,6 +63,6 @@ L'application s'ouvrira automatiquement dans votre navigateur par défaut.
 
 ## Membres du projet
 * **Camille THAUVIN** : Gestion de l'upload, connexion DuckDB, création de la sidebar.
-* **Ines TAIBI** : Implémentation des requêtes SQL et filtres.
+* **Ines HIDECHE** : Implémentation des requêtes SQL et filtres.
 * **Lucas GOUMARD** : Preprocessing des données et création du dashboard.
 
